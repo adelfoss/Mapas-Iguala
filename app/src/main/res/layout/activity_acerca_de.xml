@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/acercaMarginTop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="@dimen/acercaTextSize"
+            android:layout_marginTop="@dimen/acercaMarginTop"
+            android:layout_marginRight="@dimen/acercaMarginRightLeft"
+            android:layout_marginLeft="@dimen/acercaMarginRightLeft"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acercaTextoAcerca"
+            android:textColor="@color/black"
+            android:textSize="@dimen/acercaTextSize"
+            android:layout_marginTop="@dimen/acercaMarginRightLeft"
+            android:layout_marginRight="@dimen/acercaMarginRightLeft"
+            android:layout_marginLeft="@dimen/acercaMarginRightLeft"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Versión:"
+            android:textSize="@dimen/acercaTextSize"
+            android:layout_marginTop="@dimen/acercaMarginTop"
+            android:layout_marginRight="@dimen/acercaMarginRightLeft"
+            android:layout_marginLeft="@dimen/acercaMarginRightLeft"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acercaVersionAPP"
+            android:textSize="@dimen/acercaTextSize"
+            android:layout_marginTop="@dimen/acercaMarginTop"
+            android:layout_marginRight="@dimen/acercaMarginRightLeft"
+            android:layout_marginLeft="@dimen/acercaMarginRightLeft"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+</LinearLayout>

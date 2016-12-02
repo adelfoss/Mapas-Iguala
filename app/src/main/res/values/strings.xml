@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mapas - Iguala Gro.</string>
+    <string name="title_activity_maps"></string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="ubicacion1">Asta bandera</string>
+    <string name="ubicacion2">Galerías Tamarindos</string>
+    <string name="ubicacion3">Parroquia de San Francisco de Asis</string>
+    <string name="ubicacion4">Museo de la Bandera</string>
+    <string name="marcador">marcador</string>
+    <string name="latitud">latitud</string>
+    <string name="longitud">longitud</string>
+    <string name="zoom">zoom</string>
+    <string name="acercaVersionAPP">1.0</string>
+    <string name="acercaTextoAcerca">Esta aplicación fue desarrollada para la evaluación de las actividades correspondientes a la semana 2 del curso \"Desarrollo de aplicaciones avanzadas con Android\", mostrando principalmente el uso de la API Google Maps.</string>
+    <string name="numeroUbicacion">numeroUbicacion</string>
+    <string name="colorMarcador">colorMarcador</string>
+</resources>
